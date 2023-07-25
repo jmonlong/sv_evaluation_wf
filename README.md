@@ -1,6 +1,6 @@
-# SV evaluation workflow
+# Structural variant evaluation workflow
 
-Evaluate SV calls against a truth set using [truvari](https://github.com/ACEnglish/truvari) and [sveval](https://github.com/jmonlong/sveval).
+Evaluate structural variant (SV) calls against a truth set using [truvari](https://github.com/ACEnglish/truvari) and [sveval](https://github.com/jmonlong/sveval).
 
 1. [Inputs](#inputs)
 2. [Outputs](#outputs)

@@ -4,7 +4,7 @@ workflow sv_evaluation {
     meta {
     author: "Jean Monlong"
         email: "jean.monlong@gmail.com"
-        description: "Evaluate SV calls against a truth set using truvari and/or sveval"
+        description: "Evaluate structural variant (SV) calls against a truth set using truvari and/or sveval"
     }
 
     parameter_meta {
