@@ -2,6 +2,8 @@
 
 Evaluate structural variant (SV) calls against a truth set using [truvari](https://github.com/ACEnglish/truvari) and [sveval](https://github.com/jmonlong/sveval).
 
+[Dockstore page](https://dockstore.org/workflows/github.com/jmonlong/sv_evaluation_wf/sv_evaluation:main?tab=info)
+
 1. [Inputs](#inputs)
 2. [Outputs](#outputs)
 3. [Test locally](#test-locally)
