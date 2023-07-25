@@ -1,9 +1,6 @@
 # SV evaluation workflow
 
-Evaluate SV calls against a truth set using:
-
-- [truvari](https://github.com/ACEnglish/truvari)
-- [sveval](https://github.com/jmonlong/sveval)
+Evaluate SV calls against a truth set using [truvari](https://github.com/ACEnglish/truvari) and [sveval](https://github.com/jmonlong/sveval).
 
 1. [Inputs](#inputs)
 2. [Outputs](#outputs)
@@ -69,13 +66,13 @@ miniwdl run --as-me -i giab37.minimal.inputs.json workflow.wdl
 Disclaimer: this uses a lifted version of the GIAB truthset. 
 Lifting from GRCh37 to GRCh38 seemed to be unambiguous for the vast majority of SVs (~99%), but of course a few might be lifted incorrectly or be missing.
 
-The lifted GIAB truthset is available in the [`data`](data) directory. 
+The lifted GIAB truthset is available in the [`giab-inputs`](giab-inputs) directory. 
 Download it locally with:
 
 ```sh
-wget https://raw.githubusercontent.com/jmonlong/sv_evaluation_wf/master/data/giab6_hg38-truth-baseline.vcf.gz
+wget https://raw.githubusercontent.com/jmonlong/sv_evaluation_wf/master/giab-inputs/giab6_hg38-truth-baseline.vcf.gz
 
-wget https://raw.githubusercontent.com/jmonlong/sv_evaluation_wf/master/data/HG002_SVs_Tier1_v0.6.lifted.bed
+wget https://raw.githubusercontent.com/jmonlong/sv_evaluation_wf/master/giab-inputs/HG002_SVs_Tier1_v0.6.lifted.bed
 ```
 
 Download the genome and repeat annotation:
