@@ -1,0 +1,7 @@
+{
+  "sv_evaluation.CALLS_VCF": "test/calls.sorted.vcf.gz",
+  "sv_evaluation.TRUTH_VCF": "test/truth.sorted.vcf.gz",
+  "sv_evaluation.CONF_REGIONS_BED": "test/conf.bed",
+  "sv_evaluation.REFERENCE_FASTA": "test/ref.fa",
+  "sv_evaluation.SIMPREP_BED": "test/simprep.bed"
+}

@@ -1,0 +1,5 @@
+{
+  "sv_evaluation.CALLS_VCF": "test/calls.sorted.vcf.gz",
+  "sv_evaluation.TRUTH_VCF": "test/truth.sorted.vcf.gz",
+  "sv_evaluation.REFERENCE_FASTA": "test/ref.fa"
+}

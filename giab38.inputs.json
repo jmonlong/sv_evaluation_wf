@@ -1,0 +1,7 @@
+{
+  "sv_evaluation.CALLS_VCF": "giab6_hg38-truth-baseline.vcf.gz",
+  "sv_evaluation.TRUTH_VCF": "giab6_hg38-truth-baseline.vcf.gz",
+  "sv_evaluation.CONF_REGIONS_BED": "HG002_SVs_Tier1_v0.6.lifted.bed",
+  "sv_evaluation.REFERENCE_FASTA": "hg38.fa",
+  "sv_evaluation.SIMPREP_BED": "simpleRepeat_GRCh38.bed.gz"
+}

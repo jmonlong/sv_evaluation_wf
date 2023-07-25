@@ -1,0 +1,11 @@
+version: 1.2
+workflows:
+  - name: sv_evaluation
+    subclass: WDL
+    description: Evaluate SV calls against a truth set using truvari and sveval
+    primaryDescriptorPath: /workflow.wdl
+    testParameterFiles:
+      - /test/test.inputs.json
+    authors:
+      - name: Jean Monlong
+        email: jean.monlong@gmail.com
