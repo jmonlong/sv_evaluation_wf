@@ -59,8 +59,7 @@ wget https://s3-us-west-2.amazonaws.com/human-pangenomics/publications/vgsv2019/
 Run the workflow:
 
 ```sh
-miniwdl run --as-me -i giab37.inputs.json workflow.wdl
-miniwdl run --as-me -i giab37.minimal.inputs.json workflow.wdl
+miniwdl run --as-me -i giab-inputs/giab37.inputs.json workflow.wdl
 ```
 
 ## Evaluate against GIAB on GRCh38
@@ -89,5 +88,5 @@ wget https://raw.githubusercontent.com/jmonlong/sveval/master/docs/simpleRepeat_
 Assuming the SV calls are in a `calls.vcf.gz` file, run the workflow:
 
 ```sh
-miniwdl run --as-me -i giab38.inputs.json workflow.wdl
+miniwdl run --as-me -i giab-inputs/giab38.inputs.json workflow.wdl
 ```

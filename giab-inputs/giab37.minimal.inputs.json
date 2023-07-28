@@ -1,5 +1,0 @@
-{
-  "sv_evaluation.CALLS_VCF": "giab5-vg-HG002.vcf.gz",
-  "sv_evaluation.TRUTH_VCF": "HG002_SVs_Tier1_v0.6.vcf.gz",
-  "sv_evaluation.REFERENCE_FASTA": "hs37d5.fa"
-}
